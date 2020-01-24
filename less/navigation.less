@@ -1,1 +1,35 @@
 // Navigation Styles here
+
+.navigation{
+	width:100%;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	padding: 20px 10%;
+	border-bottom: 2px dashed silver;
+
+	
+	ul{
+		width:30%;
+		display:flex;
+		justify-content:space-between;
+	}
+	
+	@media @mobile{
+		
+		display:flex;
+		flex-direction:column;
+		padding: 10px 10%;
+		
+		h1{
+			margin:10px auto;
+		}
+		
+		ul{
+		width:100%;
+		display:flex;
+		justify-content:space-between;
+	}
+		
+	}
+}
